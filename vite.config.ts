@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/Debris/", // 👈 Add this line for GitHub Pages
+  base: "/Debris", // 👈 Add this line for GitHub Pages
   server: {
     host: "::",
     port: 8080,
